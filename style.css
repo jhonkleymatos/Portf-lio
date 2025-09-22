@@ -261,3 +261,10 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+.anuncio {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+}
