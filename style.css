@@ -31,6 +31,7 @@ body {
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
+
 }
 
 .menu {
@@ -39,6 +40,10 @@ body {
     list-style: none;
     gap: 3rem;
 
+    @media (max-width: 750px){
+        gap: 35px ;
+
+    }
 }
 
 .menu-link {
@@ -113,6 +118,10 @@ h1 {
     color: var(--claro);
     text-align: center;
     margin-bottom: 20px;
+
+    @media (max-width: 750px){
+        font-size: 40px;
+     }
 }
 
 .sobre-ca {
@@ -123,6 +132,10 @@ h1 {
     border: 1px solid var(--vidro);
     backdrop-filter: blur(10ox);
     background: rgba(255, 255, 255, 0.05);
+
+    @media (max-width: 750px){
+        padding: 15px;
+     }
 }
 
 .sobre-pa {
@@ -138,6 +151,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
+    
 }
 
 .proj-ca {
@@ -194,6 +208,10 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
+
+    @media (max-width: 750px){
+        font-size: 35px;
+     }
 }
 
 .cont-form {
