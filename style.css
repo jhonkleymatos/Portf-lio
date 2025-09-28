@@ -132,13 +132,14 @@ h1 {
 
 .proj-ca {
     display: grid;
-   /* grid-template-columns: 400px 400px 400px;
-    grid-template-columns: 40% 40% 40%; */
     grid-template-columns: 1fr 1fr 1fr;
-   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     gap: 2rem;
     max-width: 1000px;
     margin: 0 auto;
+
+    @media (max-width: 750px){
+        grid-template-columns: 1fr;
+    }
 }
 
 .proj-cad {
